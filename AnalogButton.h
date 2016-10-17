@@ -56,7 +56,7 @@ public:
 
 private:
 	short int _pin;        // hardware pin number. 
-	int ActiveValue;		//Analog Value to be mess
+	int ActiveValue;		//measured value
 	int _clickTicks; // number of ticks that have to pass by before a click is detected
 	int _pressTicks; // number of ticks that have to pass by before a long button press is detected
 	const int _debounceTicks = 50; // number of ticks for debounce times.
